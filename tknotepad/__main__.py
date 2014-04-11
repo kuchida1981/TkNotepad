@@ -5,7 +5,7 @@ from mainwindow import Mainwindow
 def main(argv):
     root = tk.Tk()
     mainwindow = Mainwindow(master = root)
-    mainwindow.pack()
+    mainwindow.pack(expand = True, fill = tk.BOTH)
     root.mainloop()
 
 if __name__ == '__main__':
